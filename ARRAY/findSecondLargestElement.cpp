@@ -14,7 +14,7 @@ int main()
             p=i;
         }
     }
-    cout<<max<<endl;
+ 
     arr[p]=INT_MIN;
     secondmax=INT_MIN;
     for(int i=0;i<10;i++)
@@ -24,6 +24,6 @@ int main()
             secondmax=arr[i];
         }
     }
-    cout<<secondmax; 
+    cout<<"second largest element is: "<< secondmax; 
     return 0;
 }
