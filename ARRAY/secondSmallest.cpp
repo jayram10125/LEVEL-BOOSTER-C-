@@ -1,5 +1,6 @@
-//find the second smallest element in the array
+//find the second largest element in the array
 #include<iostream>
+
 using namespace std;
 int main()
 {
@@ -8,22 +9,22 @@ int main()
     min=INT_MAX;
     for(int i=0;i<10;i++)
     {
-        if(min<arr[i])
+        if(min>arr[i])
         {
             min=arr[i];
             p=i;
         }
     }
-    
+ 
     arr[p]=INT_MAX;
     secondmin=INT_MAX;
     for(int i=0;i<10;i++)
     {
-        if(secondmin<arr[i])
+        if(secondmin>arr[i])
         {
             secondmin=arr[i];
         }
     }
-    cout<<"second smallest element is : " <<secondmin; 
+    cout<<"second largest element is: "<< secondmin; 
     return 0;
 }
