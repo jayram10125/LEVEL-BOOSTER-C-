@@ -28,12 +28,8 @@ while(reverse!=0)
         case 8:cout<<" eight ";break;
         case 9:cout<<" nine ";break;
         default:break;
-
-
     }
     reverse=reverse/10;
-}
-
-    
+}   
     return 0;
 }
