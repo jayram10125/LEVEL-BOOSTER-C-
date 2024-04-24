@@ -13,11 +13,22 @@ int main()
     }
     cout<<"enter the x : ";
     cin>>x;
-    for(int i=0;i<v.size();i++)
+    //traversing from start
+    // for(int i=0;i<v.size();i++)
+    // {
+    //     if(v[i]==x)
+    //     {
+    //         occurence=i;
+    //     }
+    // }
+
+    //we can traverse from last also
+    for(int i=v.size()-1;i>=0;i--)
     {
         if(v[i]==x)
         {
             occurence=i;
+            break;
         }
     }
     cout<<"index of last occurence of "<<x<<" is : "<<occurence;
