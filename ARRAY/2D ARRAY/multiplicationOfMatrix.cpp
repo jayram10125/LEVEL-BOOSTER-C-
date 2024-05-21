@@ -35,6 +35,7 @@ int main()
             }
         }
         //initializing all the elements of resultant matrix with zero
+        
         for(int i=0;i<r1;i++)
         {
             for(int j=0;j<c2;j++)
