@@ -1,14 +1,8 @@
 //area of circle and rectangle
 #include<iostream>
+#include "myheader.h"
 using namespace std;
-float area(float r)
-{
-    return 3.14*r*r;
-}
-int area(int l ,int b)
-{
-    return l*b;
-}
+
 int main()
 {
 int l,b,r;
