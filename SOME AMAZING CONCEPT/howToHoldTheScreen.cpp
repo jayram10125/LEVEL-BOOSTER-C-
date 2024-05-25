@@ -1,0 +1,9 @@
+//how to hold the screen
+#include<iostream>
+using namespace std;
+int main()
+{
+    system("pause");
+    cout<<"Radhe Radhe";
+    return 0;
+}
