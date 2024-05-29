@@ -14,6 +14,6 @@ int main()
     cout<<"concate str1 & str2 : "<<strcat(str1,str2)<<endl;
     cout<<"reverse of str2 : "<<strrev(str2)<<endl;
     cout<<"convert str1 into lower case : "<<strlwr(str1)<<endl;
-    cout<<"convert str2 into upper case : "<<strupr(str2)<<endl;
+    cout<<"convert str2 into upper case : "<<strupr(str2)<<endl ;
     return 0;
 }
