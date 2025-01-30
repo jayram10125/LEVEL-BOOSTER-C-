@@ -1,5 +1,6 @@
 //find the maximum element of the array 
 #include<iostream>
+#include<climits>
 using namespace std;
 int main()
 {
